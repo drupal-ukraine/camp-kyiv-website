@@ -17,8 +17,6 @@ display:
             items_per_page_options_all_label: '- Все -'
             offset_label: Пропустить
       fields:
-        fid:
-          label: Fid
         filename:
           label: Название
         type:
@@ -29,10 +27,8 @@ display:
           label: Статус
         changed:
           label: Изменение
-          separator: ', '
         created:
           label: Создано
-          separator: ', '
         count:
           label: 'Используется в'
           format_plural_string: !!binary QGNvdW50INC80LXRgdGC0L4DQGNvdW50INC80LXRgdGC0LADQGNvdW50WzJdINC80LXRgdGC

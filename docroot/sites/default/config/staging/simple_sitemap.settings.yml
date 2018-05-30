@@ -10,3 +10,4 @@ enabled_entity_types:
   - menu_link_content
 _core:
   default_config_hash: TtQzZyIf0d3IThxcwI-L1v5Q85hlh8yT6sNtIJrrfHc
+langcode: uk

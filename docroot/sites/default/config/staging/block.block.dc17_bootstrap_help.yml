@@ -11,7 +11,7 @@ _core:
 id: dc17_bootstrap_help
 theme: dc17_bootstrap
 region: content
-weight: -29
+weight: -30
 provider: null
 plugin: help_block
 settings:

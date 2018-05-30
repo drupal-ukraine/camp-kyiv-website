@@ -9,7 +9,7 @@ _core:
 id: dc17_bootstrap_local_actions
 theme: dc17_bootstrap
 region: content
-weight: -27
+weight: -28
 provider: null
 plugin: local_actions_block
 settings:

@@ -1,5 +1,5 @@
 uuid: faac9b75-a5e9-40d4-90bd-b647cfd25dae
-langcode: en
+langcode: uk
 status: true
 dependencies:
   module:
@@ -330,8 +330,8 @@ display:
           type: boolean
           settings:
             format: custom
-            format_custom_true: Published
-            format_custom_false: Unpublished
+            format_custom_true: Опубліковано
+            format_custom_false: Неопубліковано
           plugin_id: field
           entity_type: node
           entity_field: status
