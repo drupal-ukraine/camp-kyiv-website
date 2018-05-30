@@ -18,10 +18,10 @@ provider: null
 plugin: 'views_block:sponsors_sidebar-block_5'
 settings:
   id: 'views_block:sponsors_sidebar-block_5'
-  label: 'BRONZE SPONSOR'
+  label: 'БРОНЗОВИЙ СПОНСОР'
   provider: views
   label_display: visible
-  views_label: 'BRONZE SPONSOR'
+  views_label: 'БРОНЗОВИЙ СПОНСОР'
   items_per_page: none
 visibility:
   'entity_bundle:node':
