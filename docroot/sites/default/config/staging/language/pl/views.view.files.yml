@@ -23,8 +23,6 @@ display:
           label: 'typ MIME'
         filesize:
           label: Rozmiar
-        status:
-          label: Status
         created:
           label: 'Data wysłania'
         changed:
@@ -38,9 +36,6 @@ display:
         filemime:
           expose:
             label: 'typ MIME'
-        status:
-          expose:
-            label: Status
       title: Pliki
   page_1:
     display_options:

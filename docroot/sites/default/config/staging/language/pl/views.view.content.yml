@@ -1,8 +1,25 @@
-label: Zawartość
-description: 'Wyszukiwanie i zarządzanie zawartością.'
 display:
   default:
     display_options:
+      filters:
+        status:
+          group_info:
+            group_items:
+              1:
+                value: '1'
+                title: Opublikowane
+              2:
+                title: Nieopublikowany
+            label: 'Status opublikowania'
+        title:
+          expose:
+            label: Tytuł
+        type:
+          expose:
+            label: 'Rodzaj zawartości'
+        langcode:
+          expose:
+            label: Język
       exposed_form:
         options:
           submit_button: Filtr
@@ -18,32 +35,13 @@ display:
         name:
           label: Autor
         status:
-          label: Status
+          settings:
+            format_custom_true: Opublikowane
+            format_custom_false: Nieopublikowany
         changed:
           label: Uaktualniono
         operations:
           label: Operacje
-      filters:
-        status:
-          expose:
-            label: Status
-          group_info:
-            label: 'Status opublikowania'
-            group_items:
-              1:
-                title: Opublikowane
-                value: '1'
-              2:
-                title: Nieopublikowany
-        type:
-          expose:
-            label: 'Rodzaj zawartości'
-        title:
-          expose:
-            label: Tytuł
-        langcode:
-          expose:
-            label: Język
       title: Zawartość
       empty:
         area_text_custom:
@@ -57,3 +55,5 @@ display:
         title: Zawartość
         description: 'Znajdź i zarządzaj treścią'
     display_title: Strona
+label: Zawartość
+description: 'Wyszukiwanie i zarządzanie zawartością.'

@@ -63,11 +63,22 @@ class DCSponsors extends BlockBase {
       ];
     }
 
+    if (!empty(views_get_view_result('sponsors_sidebar', 'block_5'))) {
+      $block_bronze_sponsors = [
+        '#type' => 'view',
+        '#name' => 'sponsors_sidebar',
+        '#attributes' => ['class' => ['partners views-row view-content'],],
+        '#markup' => '<div class="title"><div class="title-partners"><h3>' . t('BRONZE SPONSOR') . '</h3></div></div>',
+        '#display_id' => 'block_5',
+      ];
+    }
+
     return [
       $block_platinum_sponsors,
       $block_gold_sponsors,
       $block_silver_sponsors,
       $block_partners,
+      $block_bronze_sponsors
     ];
   }
 

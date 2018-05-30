@@ -13,7 +13,7 @@ dependencies:
 id: facebook
 theme: dc17_bootstrap
 region: sidebar_second
-weight: -16
+weight: -22
 provider: null
 plugin: 'block_content:e6e38b07-74e3-4eed-9e8b-3df7af85c199'
 settings:

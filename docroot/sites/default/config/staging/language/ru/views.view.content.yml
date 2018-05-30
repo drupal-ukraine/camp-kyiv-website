@@ -1,8 +1,27 @@
-label: Содержимое
-description: 'Поиск материалов и управление ими'
 display:
   default:
     display_options:
+      filters:
+        status:
+          group_info:
+            group_items:
+              1:
+                value: '1'
+                title: Опубликовано
+              2:
+                title: 'Снято с публикации'
+            label: 'Статус публикации'
+          expose:
+            label: Статус
+        title:
+          expose:
+            label: Заголовок
+        type:
+          expose:
+            label: 'Тип материала'
+        langcode:
+          expose:
+            label: Язык
       exposed_form:
         options:
           submit_button: Фильтр
@@ -22,36 +41,17 @@ display:
           label: Заголовок
         type:
           label: 'Тип материала'
-          separator: ', '
         name:
           label: Автор
         status:
           label: Статус
+          settings:
+            format_custom_true: Опубликовано
+            format_custom_false: 'Снято с публикации'
         changed:
           label: Обновлено
         operations:
           label: Операции
-      filters:
-        status:
-          expose:
-            label: Статус
-          group_info:
-            label: 'Статус публикации'
-            group_items:
-              1:
-                title: Опубликовано
-                value: '1'
-              2:
-                title: 'Снято с публикации'
-        type:
-          expose:
-            label: 'Тип материала'
-        title:
-          expose:
-            label: Заголовок
-        langcode:
-          expose:
-            label: Язык
       title: Содержимое
       empty:
         area_text_custom:
@@ -65,3 +65,5 @@ display:
         title: Содержимое
         description: 'Поиск материалов и управление ими'
     display_title: Страница
+label: Содержимое
+description: 'Поиск материалов и управление ими'

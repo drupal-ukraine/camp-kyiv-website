@@ -22,8 +22,6 @@ display:
           label: Typ
         filesize:
           label: Rozmiar
-        status:
-          label: Status
         changed:
           label: Zmieniono
         created:
@@ -36,9 +34,6 @@ display:
         filename:
           expose:
             label: 'Nazwa pliku'
-        status:
-          expose:
-            label: Status
         type:
           expose:
             label: Typ

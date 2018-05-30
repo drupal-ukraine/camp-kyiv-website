@@ -1,5 +1,5 @@
 uuid: 014d7537-dbab-46ff-8a93-b44a69184905
-langcode: en
+langcode: uk
 status: true
 dependencies:
   module:
@@ -296,8 +296,8 @@ display:
           type: boolean
           settings:
             format: custom
-            format_custom_true: Active
-            format_custom_false: Blocked
+            format_custom_true: Активно
+            format_custom_false: Заблоковано
           entity_type: user
           entity_field: status
         roles_target_id:

@@ -12,3 +12,4 @@ term_path_handler: true
 _core:
   default_config_hash: IxLwI-D9NeuZKfY2iz87l0NeM8LfBn7IVucsc6RG6l4
 route_normalizer_enabled: true
+langcode: uk

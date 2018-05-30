@@ -13,7 +13,7 @@ dependencies:
 id: views_block__sponsors_sidebar_block_4_2
 theme: dc17_bootstrap
 region: sidebar_second
-weight: -21
+weight: -27
 provider: null
 plugin: 'views_block:sponsors_sidebar-block_4'
 settings:

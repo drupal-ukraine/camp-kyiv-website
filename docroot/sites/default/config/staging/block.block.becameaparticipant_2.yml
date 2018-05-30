@@ -12,7 +12,7 @@ dependencies:
 id: becameaparticipant_2
 theme: dc17_bootstrap
 region: content
-weight: -25
+weight: -26
 provider: null
 plugin: 'block_content:df712900-63a9-4f97-8638-f5dc21ca7b9a'
 settings:
