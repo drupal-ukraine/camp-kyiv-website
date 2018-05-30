@@ -1,26 +1,26 @@
-uuid: 40d77bf2-56be-445b-b87c-728c8c14c496
+uuid: 6dbfe120-29a5-4950-b690-8f823ddb7336
 langcode: uk
 status: true
 dependencies:
   config:
-    - views.view.sponsors
+    - views.view.sponsors_sidebar
   module:
     - system
     - views
   theme:
     - dc17_bootstrap
-id: views_block__sponsors_block_7
+id: views_block__sponsors_sidebar_block_6
 theme: dc17_bootstrap
-region: content
-weight: -21
+region: sidebar_second
+weight: -22
 provider: null
-plugin: 'views_block:sponsors-block_7'
+plugin: 'views_block:sponsors_sidebar-block_6'
 settings:
-  id: 'views_block:sponsors-block_7'
-  label: 'BRONZE SPONSOR'
+  id: 'views_block:sponsors_sidebar-block_6'
+  label: ''
   provider: views
   label_display: visible
-  views_label: 'BRONZE SPONSOR'
+  views_label: ''
   items_per_page: none
 visibility:
   request_path:
