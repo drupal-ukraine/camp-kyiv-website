@@ -1,0 +1,24 @@
+uuid: 141e6673-0eea-462b-a825-bf5eb31dae2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sponsors
+  module:
+    - views
+  theme:
+    - dc17_bootstrap
+id: views_block__sponsors_block_8
+theme: dc17_bootstrap
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:sponsors-block_8'
+settings:
+  id: 'views_block:sponsors-block_8'
+  label: 'AFTERPARTY SPONSOR'
+  provider: views
+  label_display: visible
+  views_label: 'AFTERPARTY SPONSOR'
+  items_per_page: none
+visibility: {  }

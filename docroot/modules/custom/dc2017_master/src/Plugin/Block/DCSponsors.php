@@ -21,6 +21,8 @@ class DCSponsors extends BlockBase {
     $block_gold_sponsors = [];
     $block_silver_sponsors = [];
     $block_partners = [];
+    $block_bronze_sponsors = [];
+    $block_afterparty_sponsors = [];
 
     if (!empty(views_get_view_result('sponsors_sidebar', 'block_1'))) {
       $block_platinum_sponsors = [
@@ -73,12 +75,23 @@ class DCSponsors extends BlockBase {
       ];
     }
 
+    if (!empty(views_get_view_result('sponsors_sidebar', 'block_6'))) {
+      $block_afterparty_sponsors = [
+        '#type' => 'view',
+        '#name' => 'sponsors_sidebar',
+        '#attributes' => ['class' => ['partners views-row view-content'],],
+        '#markup' => '<div class="title"><div class="title-partners"><h3>' . t('AFTERPARTY SPONSOR') . '</h3></div></div>',
+        '#display_id' => 'block_6',
+      ];
+    }
+
     return [
       $block_platinum_sponsors,
       $block_gold_sponsors,
       $block_silver_sponsors,
       $block_partners,
-      $block_bronze_sponsors
+      $block_bronze_sponsors,
+      $block_afterparty_sponsors
     ];
   }
 
