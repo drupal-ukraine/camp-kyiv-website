@@ -5,6 +5,7 @@ dependencies:
   config:
     - views.view.sponsors
   module:
+    - system
     - views
   theme:
     - dc17_bootstrap
@@ -21,4 +22,9 @@ settings:
   label_display: visible
   views_label: 'AFTERPARTY SPONSOR'
   items_per_page: none
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/47
+    negate: false
+    context_mapping: {  }
