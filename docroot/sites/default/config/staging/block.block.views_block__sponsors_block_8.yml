@@ -12,15 +12,15 @@ dependencies:
 id: views_block__sponsors_block_8
 theme: dc17_bootstrap
 region: content
-weight: 0
+weight: -22
 provider: null
 plugin: 'views_block:sponsors-block_8'
 settings:
   id: 'views_block:sponsors-block_8'
-  label: 'AFTERPARTY SPONSOR'
+  label: 'СПОНСОР ВЕЧІРКИ'
   provider: views
   label_display: visible
-  views_label: 'AFTERPARTY SPONSOR'
+  views_label: 'СПОНСОР ВЕЧІРКИ'
   items_per_page: none
 visibility:
   request_path:
