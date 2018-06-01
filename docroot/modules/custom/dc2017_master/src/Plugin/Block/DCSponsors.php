@@ -89,9 +89,9 @@ class DCSponsors extends BlockBase {
       $block_platinum_sponsors,
       $block_gold_sponsors,
       $block_silver_sponsors,
-      $block_partners,
+      $block_afterparty_sponsors,
       $block_bronze_sponsors,
-      $block_afterparty_sponsors
+      $block_partners,
     ];
   }
 
