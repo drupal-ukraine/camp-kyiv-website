@@ -12,7 +12,7 @@ dependencies:
 id: views_block__sponsors_block_7
 theme: dc17_bootstrap
 region: content
-weight: -21
+weight: -23
 provider: null
 plugin: 'views_block:sponsors-block_7'
 settings:

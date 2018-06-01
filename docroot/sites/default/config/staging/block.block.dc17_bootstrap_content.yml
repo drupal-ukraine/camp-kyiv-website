@@ -11,7 +11,7 @@ _core:
 id: dc17_bootstrap_content
 theme: dc17_bootstrap
 region: content
-weight: -27
+weight: -29
 provider: null
 plugin: system_main_block
 settings:

@@ -12,7 +12,7 @@ dependencies:
 id: views_block__presentation_block_presentation
 theme: dc17_bootstrap
 region: content
-weight: -24
+weight: -26
 provider: null
 plugin: 'views_block:presentation-block_presentation'
 settings:
